@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Connect to the server that hosts the ASCII Star Wars movie
+telnet towel.blinkenlights.nl
