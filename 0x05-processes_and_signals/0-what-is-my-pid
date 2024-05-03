@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 #use a special variable that holds pid
 
 echo $$
