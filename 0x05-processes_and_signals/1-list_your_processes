@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#list all processes regardless of user or terminal association
+ps faux
