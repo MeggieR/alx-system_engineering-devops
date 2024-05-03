@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+#$$ is a special variable that holds the  process id of 
+#the currently running script.
+
+echo $$
