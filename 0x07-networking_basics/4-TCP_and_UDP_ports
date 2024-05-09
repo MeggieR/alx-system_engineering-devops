@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#provide information about network connections.(listening sockets, PID and name of the program to which each socket belongs)
+netstart -l -p
