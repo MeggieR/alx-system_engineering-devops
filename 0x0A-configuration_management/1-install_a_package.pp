@@ -5,7 +5,7 @@ package { 'python3.8':
   provider => 'pip3',
 }
 
-package { 'flask':
+package { 'Flask':
   ensure   => '2.1.0',
   provider => 'pip3',
 }
@@ -15,3 +15,4 @@ package { 'Werkzeug':
   provider => 'pip3',
   require  => Package['Flask'],
 }
+
