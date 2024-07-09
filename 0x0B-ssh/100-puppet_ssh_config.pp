@@ -17,3 +17,4 @@ file_line {'Use a Identity file':
   match   => '^IdentityFile',
   replace => 'present',
 }
+
