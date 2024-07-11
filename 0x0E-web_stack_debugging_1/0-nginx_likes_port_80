@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# find out what is keeping NGnix from listening to port 80
+# find out what is keeping Nginx from listening to port 80
 apt-get update -y
 apt-get install -y nginx
-sudo service nginx enable
-sudo service nginx start
+sudo systemctl enable nginx
+sudo systemctl start nginx
 

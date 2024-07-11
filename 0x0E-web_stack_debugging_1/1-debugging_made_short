@@ -1,0 +1,3 @@
+# a short fix on the previous code
+apt-get -y update
+
